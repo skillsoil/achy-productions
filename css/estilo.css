@@ -1,0 +1,49 @@
+html,body {
+	height:100%;
+}
+
+header {
+
+	display:block;
+	background:#286af0;
+	padding:10px 0px;
+}
+section {
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+.videoContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  /* optional */
+  width: 100%;
+  height: 100%;
+}
+aside {
+	float: right;
+	border: 1px solid red;
+	width: 19%;
+	border: 1px solid red;
+	/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+	/*visibility: hidden;*/
+}
+
+figure {
+	display: table; margin: 0 auto;
+}
